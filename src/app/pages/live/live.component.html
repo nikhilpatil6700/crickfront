@@ -1,0 +1,10 @@
+ 
+    <div class="flex flex-wrap items-stretch ">
+          @for (match of liveMatches; track $index) {
+          <div class=" w-full md:w-[33%] p-3 ">
+                <app-match-card [data]="match"></app-match-card>
+          </div>
+          }
+
+    </div>
+    
